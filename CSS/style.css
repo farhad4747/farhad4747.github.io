@@ -1,0 +1,72 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fffefe;
+}
+.banner-container{
+    background-color: #18191b;
+}
+.banner-column{
+    background-color: #102040;
+}
+
+/* .navber-container{
+    top: 0;
+    background-color: solid black;
+    position:sticky;
+} */
+.nav-bg{
+    top: 0;
+    background-color: black;
+    position: sticky;
+    z-index: 2;
+}
+
+.about-container{
+    background-color: rgb(52, 165, 194);
+}
+.form-container{
+    background-color: #18191b;
+}
+
+.inner-form{
+    background-color: rgba(48, 49, 48, 0.897);
+}
+
+.button-color{
+    background-color: #54da20;
+}
+.button-color:hover{
+    color:white;
+}
+
+.footer{
+    background-color: rgb(40, 151, 140);
+}
+
+
+
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    color: rgb(40, 151, 140);
+
+}
+.circle:hover{
+    background-color: black;
+}
+
+.Portfolio-container{
+    background-color: #18191b;
+}
+
+.project-container{
+    background-color: #18191b;
+}
+
+.card-coming-soon{
+    opacity: 50%;
+}
